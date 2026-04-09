@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "crt-scope"
+version = "0.1.0"
+description = "Vintage CRT oscilloscope theme and glow renderer for Matplotlib"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = ["matplotlib>=3.7"]
+authors = [
+  { name = "Your Name" }
+]
+keywords = ["matplotlib", "oscilloscope", "crt", "plotting", "theme"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent"
+]
+
+[tool.setuptools]
+py-modules = ["crt_scope"]
+include-package-data = true
+
+[tool.setuptools.package-data]
+"" = ["*.mplstyle"]

@@ -1,0 +1,60 @@
+figure.facecolor: 1B1E21
+figure.edgecolor: 1B1E21
+savefig.facecolor: 1B1E21
+savefig.edgecolor: 1B1E21
+savefig.transparent: False
+
+axes.facecolor: 23272B
+axes.edgecolor: 5A6066
+axes.linewidth: 1.05
+axes.labelcolor: C7D6D0
+axes.labelsize: 11
+axes.titlecolor: D9E7E1
+axes.titlesize: 13
+axes.titlepad: 10
+axes.grid: True
+axes.axisbelow: True
+axes.prop_cycle: cycler('color', ['7CFFE9', 'FFC15E', '79ADFF'])
+
+xtick.color: 9DAEA8
+ytick.color: 9DAEA8
+xtick.direction: in
+ytick.direction: in
+xtick.major.size: 6
+ytick.major.size: 6
+xtick.minor.size: 3
+ytick.minor.size: 3
+xtick.major.width: 0.9
+ytick.major.width: 0.9
+xtick.minor.width: 0.6
+ytick.minor.width: 0.6
+
+font.family: DejaVu Sans Mono
+text.color: D9E7E1
+
+lines.linewidth: 2.0
+lines.solid_capstyle: round
+lines.antialiased: True
+patch.edgecolor: C7D6D0
+patch.force_edgecolor: False
+
+legend.facecolor: 202427
+legend.edgecolor: 4B5258
+legend.framealpha: 0.9
+legend.fancybox: False
+legend.labelcolor: linecolor
+
+grid.color: 52605A
+grid.linewidth: 0.8
+grid.alpha: 0.40
+grid.linestyle: -
+
+figure.subplot.left: 0.08
+figure.subplot.right: 0.98
+figure.subplot.bottom: 0.10
+figure.subplot.top: 0.90
+
+image.cmap: viridis
+errorbar.capsize: 2
+axes.spines.top: True
+axes.spines.right: True
